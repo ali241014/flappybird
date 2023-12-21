@@ -8,13 +8,13 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     [SerializeField] private GameObject _gameOverCanvas;
 
-    private void Awwake()
+    private void Awake()
     {
-        if(Instance == null)
+        if(instance == null)
         {
-            Instance = this;
+            instance = this;
         }
-        Time.timescale = 1f;
+        Time.timeScale = 1f;
     }
     public void GameOver()
     {
@@ -24,6 +24,6 @@ public class GameManager : MonoBehaviour
     }
     public void RestartGame()
     {
-        SceneManager.LoadScene(Scene.Manager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
