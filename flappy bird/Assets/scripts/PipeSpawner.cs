@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PipeSpawner : MonoBehaviour
 {
-    [SerializeField] private float _maxtime = 1.5f;
+    [SerializeField] private float _maxTime = 1.5f;
     [SerializeField] private float _heightRange = 0.45f;
     [SerializeField] private GameObject _pipe;
 
@@ -18,7 +18,7 @@ public class PipeSpawner : MonoBehaviour
 
     private  void Update()
     {
-        if (_timer > _maxtime)
+        if (_timer > _maxTime)
         {
             SpawnPipe();
             _timer = 0;

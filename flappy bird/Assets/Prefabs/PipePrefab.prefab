@@ -154,8 +154,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8593392001326939971}
   - component: {fileID: -360816766116220584}
-  - component: {fileID: 8108151861346198713}
   - component: {fileID: 3535284959116203560}
+  - component: {fileID: 4473513616039437131}
   m_Layer: 0
   m_Name: PipePrefab
   m_TagString: Untagged
@@ -212,7 +212,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.5314042, y: 0.000005066395}
+  m_Offset: {x: -0.5393551, y: 0.000005066395}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -223,20 +223,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.20843232, y: 0.6022804}
+  m_Size: {x: 0.2583543, y: 0.6022804}
   m_EdgeRadius: 0
---- !u!114 &8108151861346198713
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4089146941798525143}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db3ac106666addf46b8acf8bda341ae6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &3535284959116203560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -250,6 +238,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 0.65
+--- !u!114 &4473513616039437131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4089146941798525143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fec5718c17828b4b888bcb2078698af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4524192236511777785
 GameObject:
   m_ObjectHideFlags: 0
